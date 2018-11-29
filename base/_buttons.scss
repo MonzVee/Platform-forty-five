@@ -1,0 +1,47 @@
+
+
+.button__cancel {
+    width: 158.7px;
+    height: 53px;
+    border-radius: 5.3px;
+    background-color: $pale-grey;
+    position: absolute;
+    top: 752px;
+    right: 219.3px;
+}
+
+.button__cancel:hover  {
+    outline: 3px solid $tiffany-blue;
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+ }
+ 
+
+.button__cancel:focus {
+    outline: 3px solid $tiffany-blue;
+    transition-timing-function: 0.25s;
+
+}
+
+.button__save {
+    width: 158.7px;
+    height: 53px;
+    border-radius: 5.3px;
+    background-color: $tiffany-blue;
+    position: absolute;
+    top: 752px;
+    right: 53px;
+}
+
+.button__save:hover  {
+    outline: 3px solid $tiffany-blue;
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+ }
+ 
+
+.button__save:focus {
+    outline: 3px solid $tiffany-blue;
+    transition-timing-function: 0.25s;
+
+}
