@@ -1,0 +1,43 @@
+
+
+.left__logo {
+    width: 238px;
+    height: 238px;
+    margin-left: 75px;
+    position: absolute;
+    top: 229px;
+    left: 20px;
+ }
+
+ .left__logo:hover  {
+    outline: 3px solid $tiffany-blue;
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+ }
+
+ .left__logo:focus {
+    outline: 3px solid $tiffany-blue;
+    transition-timing-function: 0.25s;
+
+}
+ 
+ 
+
+
+
+ .left__arrow {
+    
+     position: relative;
+     
+ }
+
+ #arrow {
+     width: 64px;
+     height: 64px;
+     position: absolute;
+     top: 783px;
+     left: 188px;
+ }
+
+
+ 

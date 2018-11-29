@@ -1,0 +1,33 @@
+
+.container {
+    width: 1024px;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $pale-grey;
+    position: relative;
+}
+
+
+.left {
+   
+   width: 392px;
+   height: 892px;
+   border-radius: 42.5px;
+   background-color: $sunflower-yellow;
+   float: left; 
+   position: relative;
+}
+
+
+
+.right {
+    
+    width: 583px;
+    height: 892px;
+    border-radius: 42.5px;
+    background-color: $tangerine;
+    float: left;
+    position: relative;
+}
+
