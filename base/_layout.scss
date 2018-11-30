@@ -6,7 +6,21 @@
     margin-right: auto;
     background-color: $pale-grey;
     position: relative;
+
+    @include respond-phone {
+        width: 40%;
+    }
+
+    @include respond-tablet {
+        width: 60%;
+    }
+
+    @include respond-desktop {
+        width: 80%;
+    }
 }
+
+
 
 
 .left {

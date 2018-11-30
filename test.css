@@ -1,3 +1,9 @@
+/*
+$breakpoint argument choices:
+-phone
+-tablet
+-desktop
+*/
 *,
 *::after,
 *::before {
@@ -454,6 +460,15 @@
   margin-right: auto;
   background-color: #f5f8f9;
   position: relative; }
+  @media (max-width: 600px) {
+    .container {
+      width: 40%; } }
+  @media (max-width: 600px) {
+    .container {
+      width: 60%; } }
+  @media (max-width: 600px) {
+    .container {
+      width: 80%; } }
 
 .left {
   width: 392px;
